@@ -7,7 +7,7 @@ setup(name='slackbotjira',
       author='Kyle Varga',
       author_email='slackbot-jira@kylevarga.com',
       install_requires=[
-        'jira',
+          'jira',
       ],
       license='MIT',
       packages=['slackbotjira'],

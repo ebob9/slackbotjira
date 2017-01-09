@@ -20,9 +20,16 @@ A [slackbot](https://github.com/lins05/slackbot) plugin that queries the JIRA AP
 4. Configure Environment Variables for Authorization
   * JIRA_USER
   * JIRA_PASS
+5. Configure Optional items:
+  * Case Sensitivity for Project Names
+    * JIRA_PROJECT_CASE_SENSITVE = False  # True is default
+  * SSL CA Certificate (or disable verification completely)
+    * JIRA_SSL_VERIFY = False  # Disable Verification
+    * JIRA_SSL_VERIFY = '/path/to/ca/certificate-chain.pem'  # Custom CA cert ()does not like spaces in filename..)
  
 ## Contributors
 
+[ebob9](https://github.com/ebob9)<br>
 [kvarga](https://github.com/kvarga)
 
 ## License
