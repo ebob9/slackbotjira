@@ -22,10 +22,10 @@ except AttributeError:
 
 
 # Login to jira
-jira = JIRA( basic_auth=settings.JIRA_AUTH, options={
-    'server': CLEAN_JIRA_URL,
-    'verify': jira_ssl_verify
-})
+jira = JIRA(basic_auth=settings.JIRA_AUTH, options={
+                'server': CLEAN_JIRA_URL,
+                'verify': jira_ssl_verify
+            })
 
 
 # Listen for messages that look like JIRA URLs
