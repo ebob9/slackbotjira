@@ -25,7 +25,7 @@ A [slackbot](https://github.com/lins05/slackbot) plugin that queries the JIRA AP
     * JIRA_PROJECT_CASE_SENSITVE = False  # True is default
   * SSL CA Certificate (or disable verification completely)
     * JIRA_SSL_VERIFY = False  # Disable Verification
-    * JIRA_SSL_VERIFY = '/path/to/ca/certificate-chain.pem'  # Custom CA cert ()does not like spaces in filename..)
+    * JIRA_SSL_VERIFY = '/path/to/ca/certificate-chain.pem'  # Custom CA cert (does not like spaces in filename..)
  
 ## Contributors
 
